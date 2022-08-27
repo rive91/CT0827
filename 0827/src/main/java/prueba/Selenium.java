@@ -9,7 +9,7 @@ public class Selenium {
 		String exePath = "./src/test/resources/driver/chromedriver";//en Windows aggregar el .exe
 		System.setProperty("webdriver.chrome.driver",exePath);
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.https://www.cooltesters.com/tienda-de-cursos/selenium-con-java.com");
+		driver.get("https://www.cooltesters.com/tienda-de-cursos/selenium-con-java.com");
 	}
 
 }
